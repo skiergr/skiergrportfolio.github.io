@@ -12,27 +12,28 @@
     <div class="mode2-grid">
       <button
         class="span-three mode"
-        onclick='window.location.href="../calculator/index.html"'
+        onclick='window.location.href="./index.html"'
       >
         Mode 1
       </button>
       <button
         class="span-three mode"
-        onclick='window.location.href="../calculator/mode2.html"'
+        onclick='window.location.href="./mode2.html"'
       >
         Mode 2
       </button>
       <div class="output">
-        <div data-previous-operand class="previous-operand"></div>
-        <div data-current-operand class="current-operand"></div>
+        <div data-memory-output class="memory-output span-one"></div>
+        <div data-previous-operand class="previous-operand span-two"></div>
+        <div data-current-operand class="current-operand span-three"></div>
       </div>
       <button class="button" data-negative>+/-</button>
       <button class="button" data-operation>x^2</button>
       <button class="button" data-operation>^</button>
-      <button class="button">MU</button>
+      <button class="button">?</button>
       <button class="button" data-number="">π</button>
       <button class="button" data-operation="">√x</button>
-      <button class="button">?</button>
+      <button class="button" data-memory-clear>MC</button>
       <button class="button" data-number>7</button>
       <button class="button" data-number>8</button>
       <button class="button" data-number>9</button>
@@ -43,18 +44,18 @@
       <button class="button" data-number>5</button>
       <button class="button" data-number>6</button>
       <button class="button" data-operation>-</button>
-      <button class="button">MRC</button>
+      <button class="button" data-memory-use>MRC</button>
       <button class="button" data-all-clear>AC</button>
       <button class="button" data-number>1</button>
       <button class="button" data-number>2</button>
       <button class="button" data-number>3</button>
       <button class="button height-two" data-operation>+</button>
-      <button class="button">M-</button>
+      <button class="button" data-memory-subtract>M-</button>
       <button class="button" data-delete>DEL</button>
       <button class="button" data-number>0</button>
       <button class="button" data-number>.</button>
       <button class="button" data-equals>=</button>
-      <button class="button">M+</button>
+      <button class="button" data-memory-add>M+</button>
     </div>
   </body>
 </html>
